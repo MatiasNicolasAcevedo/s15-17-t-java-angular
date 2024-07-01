@@ -16,9 +16,15 @@
 
 <br>
 
-<h2 align="center">Objetivo</h2>
+  <div align='center'>
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/7069f6a9-6222-4fe9-b1d0-1bd526d29416" alt="mini" width="681" height="330">
+  </div>
 
-<p align="center">El objetivo principal de WoodWork poder facilitar el encontrar, reservar y gestionar espacios de trabajo compartidos de manera eficiente.</p>
+<br>
+
+<h2 align="center">🎯 Objetivo 🌟</h2>
+
+<p align="center">El objetivo principal de WoodWork es poder facilitar el encontrar, reservar y gestionar espacios de trabajo compartidos de manera eficiente.</p>
 
 <br>
 

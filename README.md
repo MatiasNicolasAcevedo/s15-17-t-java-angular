@@ -28,20 +28,82 @@
 
 <br>
 
-<div align="center">
-<h2>Funcionalidades clave</h2>
+<div align='center'>
+  <h2>🚀 Funcionalidades Principales 🚀</h2>
 </div>
 
+<div align='center'>
+  <dl>  
+    <dd>
+      🔹Registro y login en simples pasos.
+      </dd>
+    <dd>
+      🔹Sistema de encriptado para la integridad de los datos.
+      </dd>
+      <dd>
+      🔹Diseño intuitivo y fácil de usar en dispositivos móviles y de escritorio.
+      </dd>
+    <dd>
+      🔹Navegación rápida y fluida.
+      </dd>
+    <dd>
+      🔹Búsqueda y filtrado de espacios por ubicación y precio.
+      </dd>
+    <dd>
+      🔹Información detallada de cada espacio y servicios disponibles.
+      </dd>
+    <dd>
+      🔹Diferenciación entre espacios públicos y privados.
+      </dd>
+    <dd>
+      🔹Verificación de disponibilidad de días y horas.
+      </dd>
+    <dd>
+      🔹Posibilidad de reservar espacios por horas específicas.
+      </dd>
+    <dd>
+      🔹Confirmaciones de reserva instantáneas y recordatorios.
+      </dd>
+    <dd>
+      🔹Perfil de usuario con historial de reservas y valoraciones.
+      </dd>
+    <dd>
+      🔹Sistema de calificación para evaluar la calidad de los espacios.
+      </dd>
+    <dd>
+      🔹Herramientas intuitivas para gestionar espacios.
+      </dd>
+    <dd>
+      🔹Actualización de disponibilidad y precios en tiempo real.
+      </dd>
+    <dd>
+      🔹Sección de contacto para dudas y feedback.
+      </dd>
+  </dl>
+</div>
 
-| Funcionalidad | Descripción |
-|---|---|
-| Registro | Permite a los usuarios objetivo el crear cuentas en la plataforma. |
-| Logueo  | Permite a los usuarios ya registrados iniciar sesión en la plataforma. Habilitando la vista de reservas.|
-| Recomendaciones de clientes | Permite a los dueños de mascotas ver y dejar comentarios sobre los espacios. |
-| Visualización de espacios disponibles | Permite a los usuarios ponerse visualizar anticipadamenta los espacios disponibles, horarios y precios. |
+<br>
+<div align='center'>
+  <h2>🎨 Diseño 🎨</h2>
+</div>
 
+<div align='center'>
+  <b>🌈 Diseño en Figma 🖌️:</b>
+    <a href="https://www.figma.com/design/V6jOW9y46O1DyyN7e4nGNK/WoodWork?node-id=32-63&t=gq9Hx6rSl6M7aesD-1" target="_blank">[ Link al Diseño Figma ]</a>
+</div>
 
+<br>
+ <div align='center'>
+  <h2> 🎬 Video Demostración ▶ </h2>
+</div>
 
+ <div align='center'>
+  <a href="https://youtu.be/Ez0-VTziXIk" target="_blank" rel="noopener">
+    <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/47a65500-867d-40b2-b981-275052a2ae60" alt="mini" width="450" height="220" >
+  </a>
+</div>
+
+<br>
 <br>
 
 <h2 align="center">Equipo</h2>

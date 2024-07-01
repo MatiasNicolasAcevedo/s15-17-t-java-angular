@@ -209,3 +209,56 @@
    <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/bfa8ae37-b664-4729-b863-d19f88bfde85" alt="mini" width="680" height="385">
 </div>
 
+<br>
+<br>
+
+<div align='center'>
+  <h2>🛠️ Tecnologías Utilizadas ⚡</h2>
+</div>
+
+<div align='center'>
+  <h2>Frontend</h2>
+  </div>
+
+  <div align='center'>
+    
+![React](https://img.shields.io/static/v1?style=for-the-badge&message=React&color=222222&logo=React&logoColor=61DAFB&label=)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![AXIOS](https://img.shields.io/badge/AXIOS-%235A29E4?style=for-the-badge&logo=axios)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white)
+![Vercel](https://img.shields.io/static/v1?style=for-the-badge&message=Vercel&color=000000&logo=Vercel&logoColor=FFFFFF&label=)
+
+  </div>
+
+<div align='center'>
+  <h2>Backend</h2>
+  </div>
+  
+  <div align='center'>
+    
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) 
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
+
+  </div>
+
+<div align='center'>
+  <h2>Organización</h2>
+  </div>
+  
+<div align="center">
+    <img src="https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white" alt="Figma" style="height: 30px;">
+    <img src="https://img.shields.io/badge/Slack-4A154B?logo=slack&logoColor=white" alt="Slack" style="height: 30px;">
+    <img src="https://img.shields.io/badge/Trello-0052CC?logo=trello&logoColor=white" alt="Trello" style="height: 30px;">
+    <img src="https://img.shields.io/badge/Discord-5865F2?logo=Discord&logoColor=white" alt="Trello" style="height: 30px;">
+</div>
+
+<br>
+<br>

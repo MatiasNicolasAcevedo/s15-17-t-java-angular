@@ -262,3 +262,33 @@
 
 <br>
 <br>
+
+ <br>
+
+<div align='center'>
+  <h2> Swagger </h2>
+  </div>
+
+  <div align='center'>
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/38fcc09d-aecb-46db-bfae-4be6226f17ca" alt="mini" width="680" height="1277">
+</div>
+
+<br>
+<br>
+
+<div align='center'>
+  <h2> Diagrama </h2>
+  </div>
+
+  <div align='center'>
+   <img src="" alt="mini" width="773" height="508">
+</div>
+
+<br>
+
+<a href="https://www.nocountry.tech" target="_blank">
+  <div align="center">
+    <img src="https://assets-global.website-files.com/65773955177041dbf059ed20/6584760759a54bef40894700_Logo%20navbar.svg" alt="Logo de No Country" height="60">
+  </div>
+</a>
+

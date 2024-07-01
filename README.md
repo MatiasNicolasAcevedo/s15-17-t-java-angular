@@ -1,7 +1,7 @@
 <h1 align="center">💻 Equipo s15-17-t-java-angular | No Country 🌎</h1>
 
 <div align="center">
-  <img src="https://github.com/nitdraig/woodwork/blob/main/frontend/src/assets/logo.png" width="300" alt="LOGO">
+  <img src="https://github.com/nitdraig/woodwork/blob/main/frontend/src/assets/logo.png" width="280" alt="LOGO">
 </div>
 
 <br>

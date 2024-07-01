@@ -189,12 +189,23 @@
   <h2> 📷 Capturas de pantalla 🖥️ </h2>
 </div>
 
-
 <div align='center'>
-   <img src="" alt="mini" width="585" height="270">
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/70c16da9-c6cd-4d50-8e24-d54501135f22" alt="mini" width="680" height="385">
 </div>
 
 <div align='center'>
-   <img src="" alt="mini" width="585" height="270">
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/f2464d30-ed9d-4552-99fa-11e74be19eb3" alt="mini" width="680" height="476">
+</div>
+
+<div align='center'>
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/c0ba06bb-6266-4fb4-ba7f-a4a54a84d1cb" alt="mini" width="680" height="385">
+</div>
+
+<div align='center'>
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/5c327c19-b473-4f76-8fb8-77d303ce8d99" alt="mini" width="680" height="210">
+</div>
+
+<div align='center'>
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/bfa8ae37-b664-4729-b863-d19f88bfde85" alt="mini" width="680" height="385">
 </div>
 

@@ -155,7 +155,7 @@
     <td>Matias N.</td>
     <td>Acevedo</td>
     <td>Frontend</td>
-    <td><a href="https://github.com/MatiasNicolasAcevedo" target="_blank">Ver Portfolio</a></td>
+    <td><a href="https://porfolio-matias-acevedo.web.app/" target="_blank">Ver Portfolio</a></td>
   </tr>
   <tr>
     <td>Efrén</td>

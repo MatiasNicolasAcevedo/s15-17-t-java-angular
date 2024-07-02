@@ -281,9 +281,10 @@
   </div>
 
   <div align='center'>
-   <img src="" alt="mini" width="773" height="508">
+   <img src="https://github.com/MatiasNicolasAcevedo/s15-17-t-java-angular/assets/109118183/0cc3030c-3547-4a19-8deb-eb8a6fb91dac" alt="mini" width="1063" height="563">
 </div>
 
+<br>
 <br>
 
 <a href="https://www.nocountry.tech" target="_blank">

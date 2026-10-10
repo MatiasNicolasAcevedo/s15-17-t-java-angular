@@ -14,7 +14,7 @@ Fases en orden; cada una cierra con un tag `v0.x.0` ([CONTRIBUTING](../CONTRIBUT
 - [ ] Smoke E2E (Playwright) de login → dashboard → detalle en desktop y mobile (T-017).
 - [ ] Caracterización de los flujos críticos de la [auditoría](audits/2026-10-10-initial.md#7-testing-dimensión-central).
 
-**Tareas:** T-001 a T-017 (cola en BACKLOG).
+**Tareas:** T-001 a T-018 (cola en BACKLOG).
 
 ## P1 · Actualizar → `v0.2.0`
 

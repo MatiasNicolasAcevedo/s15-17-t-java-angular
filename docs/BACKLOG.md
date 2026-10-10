@@ -6,7 +6,7 @@
 > Próximo ID libre: T-019
 
 ## 🔨 En curso / en revisión (con su PR)
-_(vacío: T-000 espera merge en PR #1)_
+_(vacío)_
 
 ## ✅ Listas (cola en orden de ejecución, máx. 10)
 - T-001 · P0 · S · 🧠 frontera · Read the JWT signing secret from configuration 🔴 → [tarea](tasks/T-001-externalize-jwt-secret.md)
@@ -59,6 +59,7 @@ _(vacío: T-000 espera merge en PR #1)_
 **P3 Pulir**
 - 🤖 `alt` en imágenes (4 en `/`, 1 en `/login`); foco y contraste
 - 🤖 Code-splitting (bundle de 696 kB)
+- 🤖 `.gitattributes` (`*.sh text eol=lf`, `*.cmd text eol=crlf`) para no depender de `core.autocrlf` en Windows
 - 👤 Licencia (MIT sugerida) y renombrar el repo (dice "angular")
 - 🧠 Demo online con cuenta demo; README con capturas nuevas, GIF y badges; `v1.0.0`
 - 🧠 ADR sobre token en `localStorage` vs cookie httpOnly

@@ -28,7 +28,7 @@ Resultado esperado: `src/main/resources/env.properties` existe (está en `.gitig
 | Build + tests (gate) | `./mvnw -B clean verify` (o `../../scripts/verify.sh --server`) |
 | Correr | `./mvnw spring-boot:run` |
 | Un solo test | `./mvnw test -Dtest=CoworkProjectApplicationTests` (⚠️ hoy no corre: `skipTests=true` en `pom.xml`, T-002) |
-| Un método | `./mvnw test -Dtest='ReservationServiceImplTest#rejectsOverCapacity'` (desde T-002) |
+| Un método | `./mvnw test -Dtest='RegisterServiceImplTest#metodo'` (desde T-002) |
 | Jar | `./mvnw -B clean package -DskipTests` → `target/coworkProject-0.0.1-SNAPSHOT.jar` |
 | Imagen local | desde la raíz: `docker compose --profile app build server` (usa `Dockerfile.dev`) |
 

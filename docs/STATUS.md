@@ -19,11 +19,10 @@ Auditado y con harness listo; compila y levanta (contenedores y dev), pero sin r
 P0 Estabilizar · 0/18 tareas · ver [ROADMAP](ROADMAP.md)
 
 ## Foco
-- PR abierto (máx. 1): #1 T-000 (esperando revisión y merge del 👤 dueño)
+- PR abierto (máx. 1): ninguno (#1 T-000 mergeado)
 - **Próximo paso:** T-001 · Read the JWT signing secret from configuration · **ejecuta: 🧠 modelo de frontera**
-- **Qué hacer:** después de mergear #1, abrí una sesión nueva de Claude Code y escribí: «Seguí `docs/agents/implementer.md`»
-- **Después:** T-002 (🧠) → T-003 (🧠) → T-004 (🤖) _(después de T-003 toca cambiar al agente gratuito de IntelliJ para T-004…T-008)_
-- Tras el merge de #1: `git switch main && git pull && git tag audit/2026-10-10 && git push origin audit/2026-10-10`
+- **Qué hacer:** abrí una sesión nueva de Claude Code y escribí: «Seguí `docs/agents/implementer.md`»
+- **Después:** T-002 (🧠) → T-003 (🧠) → T-004 (🤖) _(después de T-003 toca cambiar al agente gratuito de IntelliJ para T-004, T-005, T-018, T-006, T-007 y T-008)_
 
 ## Decisiones pendientes del dueño
 - ¿El deploy (Render + Netlify/Vercel) sigue vivo y se mantiene? (bloquea T-011)
@@ -32,4 +31,5 @@ P0 Estabilizar · 0/18 tareas · ver [ROADMAP](ROADMAP.md)
 - ¿Qué agente gratuito de IntelliJ es exactamente (AI Assistant + Qwen, Junie, Qwen Code vía ACP)? Ver [SETUP](SETUP.md#-agente-gratuito-de-intellij-qwen)
 
 ## Últimas sesiones (máx. 5; las anteriores → archive/log/AAAA-MM.md)
-- 2026-10-10 · Claude Code (🧠) · auditó y armó el harness · T-000 · PR #1 (en revisión)
+- 2026-10-10 · Claude Code (🧠 sub-agente) · revisó T-000 · APROBADO, mergeado con squash · PR #1
+- 2026-10-10 · Claude Code (🧠) · auditó y armó el harness · T-000 · PR #1

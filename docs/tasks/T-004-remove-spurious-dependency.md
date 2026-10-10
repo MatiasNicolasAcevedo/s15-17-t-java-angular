@@ -5,7 +5,7 @@
 - Revisa: 🤖 agente gratuito (chat nuevo)
 
 ## Por qué
-`frontend/package.json:19` declara `"package.json": "^2.0.1"`, un paquete de npm que nadie usa (vino de un `yarn add packaje.json` fallido, ver `yarn-error.log` en la raíz). Arrastra 5 dependencias con vulnerabilidades **críticas**. En la raíz quedaron `package-lock.json` (vacío) y `yarn-error.log` (log de una PC con Windows). Auditoría: [§1–2](../audits/2026-10-10-initial.md#12-versiones-y-dependencias).
+`frontend/package.json:17` declara `"package.json": "^2.0.1"`, un paquete de npm que nadie usa (vino de un `yarn add packaje.json` fallido, ver `yarn-error.log` en la raíz). Arrastra 5 dependencias con vulnerabilidades **críticas**. En la raíz quedaron `package-lock.json` (vacío) y `yarn-error.log` (log de una PC con Windows). Auditoría: [§1–2](../audits/2026-10-10-initial.md#12-versiones-y-dependencias).
 
 ## Objetivo
 La dependencia y los dos archivos sueltos desaparecen; `npm audit` baja de 40 a 30 vulnerabilidades (críticas de 6 a 1).
@@ -15,7 +15,7 @@ La dependencia y los dos archivos sueltos desaparecen; `npm audit` baja de 40 a 
 - **No incluye:** actualizar ninguna otra dependencia ni correr `npm audit fix` (es P1); tocar `frontend/package-lock.json` a mano; tocar código.
 
 ## Leer antes
-- `frontend/package.json` (completo, 43 líneas)
+- `frontend/package.json` (completo, 44 líneas)
 - `AGENTS.md` §3 y `frontend/AGENTS.md`
 
 ## Archivos previstos

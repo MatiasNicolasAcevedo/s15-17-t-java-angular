@@ -32,8 +32,8 @@ Versiones objetivo (2026-10): JUnit 6.1.x o la del BOM, Testcontainers 2.0.x, Ja
 
 | Tipo | Referencia |
 |---|---|
-| Unitario de servicio | _pendiente T-002_ (`service/impl/ReservationServiceImplTest.java`) |
-| `@WebMvcTest` | _pendiente T-002_ (`controller/LoginControllerTest.java`) |
+| Unitario de servicio | _pendiente T-002_ (`service/impl/RegisterServiceImplTest.java`) |
+| `@WebMvcTest` | _pendiente T-002_ (`controller/HealthCheckControllerTest.java`) |
 | Integración | _pendiente T-002_ (`AuthFlowIT.java`) |
 | Componente front | _pendiente T-013_ |
 | E2E | _pendiente T-017_ |

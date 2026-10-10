@@ -1,5 +1,5 @@
 # T-000 · Bootstrap the agent harness and audit the project
-- Estado: Hecha (en revisión) · Prioridad: P0 · Esfuerzo: L · Ejecuta: 🧠 modelo de frontera
+- Estado: Hecha · Prioridad: P0 · Esfuerzo: L · Ejecuta: 🧠 modelo de frontera
 - Fase: P0 Estabilizar
 - Rama: `chore/T-000-agent-bootstrap` · Depende de: — · Spec/ADR: [ADR 0001](../adr/0001-testcontainers-postgres.md)
 - Revisa: 👤 dueño (o 🧠 sub-agente si el dueño lo pide)
@@ -20,7 +20,7 @@ Auditoría inicial + harness (contenedores, `.example`, `verify.sh`, `dev.sh`) +
 - [x] Tablero con 10 tareas en Listas (6 🤖) y protocolos en `docs/agents/`
 
 ## Notas de implementación
-- Hecho: todo lo anterior · Pendiente: revisión y merge del dueño · Próximo paso: T-001
+- Hecho: todo lo anterior; revisado por 🧠 sub-agente (APROBADO) y mergeado con squash a pedido del dueño · Próximo paso: T-001
 
 ## Resultado
 - PR: #1 · Rama `chore/T-000-agent-bootstrap` (la pedida; el push funcionó) · Pendientes → T-001…T-018

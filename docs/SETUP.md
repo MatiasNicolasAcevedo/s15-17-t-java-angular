@@ -55,7 +55,7 @@ Necesitás un PostgreSQL propio (14+): creá la base y el usuario y ajustá `DB_
 
 ### 🧠 Modelo de frontera (Claude Code)
 
-`CLAUDE.md` importa `AGENTS.md`. `.claude/settings.json` permite los comandos seguros (verify, mvnw, npm, git de lectura, `gh pr ...`) y niega push forzado, push a `main` y leer la configuración real. Sesión nueva por tarea; `/compact` según [AGENTS.md](../AGENTS.md#gestión-de-contexto).
+`CLAUDE.md` importa `AGENTS.md`. `.claude/settings.json` permite los comandos seguros (verify, mvnw, npm, git de lectura, `gh pr ...`) y niega push forzado, push a `main` y leer la configuración real. Sesión nueva por tarea; `/compact` según [AGENTS.md](../AGENTS.md#5-gestión-de-contexto).
 
 ## Notas del entorno de la sesión de bootstrap
 

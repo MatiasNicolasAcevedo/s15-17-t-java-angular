@@ -96,6 +96,7 @@ verify_client() {
 [ $RUN_CLIENT -eq 1 ] && verify_client
 
 echo
-echo "verify: $(IFS='·'; echo "${SUMMARY[*]}" | sed 's/·/ · /g')"
+joined=""; for s in "${SUMMARY[@]}"; do joined="${joined:+$joined · }$s"; done
+echo "verify: $joined"
 [ $FAILED -eq 0 ] && echo "verify: ✅ OK" || echo "verify: ❌ FALLA (detalle en .verify-logs/)"
 exit $FAILED

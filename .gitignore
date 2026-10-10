@@ -34,3 +34,13 @@ build/
 
 ###ignore el env###
 env.properties
+
+### Configuración local real (los .example sí se commitean) ###
+.env
+.env.local
+!.env.example
+**/src/main/resources/env.properties
+
+### Harness ###
+.verify-logs/
+.dev-logs/

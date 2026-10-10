@@ -1,0 +1,34 @@
+# Valida que el título del PR sea un Conventional Commit (se usa como mensaje del squash merge).
+# Usa `pull_request` (no `pull_request_target`): corre con la versión del workflow de la rama del PR,
+# así que valida también los PR abiertos antes de que este archivo llegue a main.
+name: PR title
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  conventional-title:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: amannn/action-semantic-pull-request@v6.1.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          types: |
+            feat
+            fix
+            test
+            refactor
+            chore
+            docs
+            ci
+            build
+            perf
+            revert
+          requireScope: false
+          subjectPattern: ^(?![A-Z]).+$
+          subjectPatternError: "La descripción del título debe empezar en minúscula (p. ej. 'fix(server): read JWT secret from config')."

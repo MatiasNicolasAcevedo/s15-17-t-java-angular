@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./scripts/verify.sh:*)",
+      "Bash(./scripts/dev.sh --down)",
+      "Bash(./mvnw test:*)",
+      "Bash(./mvnw -B clean verify:*)",
+      "Bash(./mvnw clean verify:*)",
+      "Bash(npm ci:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm test:*)",
+      "Bash(npx vitest run:*)",
+      "Bash(docker compose ps:*)",
+      "Bash(docker compose up -d --wait:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh pr checks:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git push --force-with-lease:*)",
+      "Bash(git push origin main:*)",
+      "Bash(git push origin HEAD:main:*)",
+      "Read(./backend/coworkProject/src/main/resources/env.properties)",
+      "Read(./frontend/.env)",
+      "Read(./frontend/.env.local)"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 # T-000 · Bootstrap the agent harness and audit the project
-- Estado: En curso · Prioridad: P0 · Esfuerzo: L · Ejecuta: 🧠 modelo de frontera
+- Estado: Hecha (en revisión) · Prioridad: P0 · Esfuerzo: L · Ejecuta: 🧠 modelo de frontera
 - Fase: P0 Estabilizar
 - Rama: `chore/T-000-agent-bootstrap` · Depende de: — · Spec/ADR: [ADR 0001](../adr/0001-testcontainers-postgres.md)
 - Revisa: 👤 dueño (o 🧠 sub-agente si el dueño lo pide)

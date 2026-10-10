@@ -6,7 +6,7 @@
 > Próximo ID libre: T-019
 
 ## 🔨 En curso / en revisión (con su PR)
-- T-000 · P0 · L · 🧠 frontera · Bootstrap agent harness and project audit → [tarea](tasks/T-000-agent-bootstrap.md) · PR #1
+_(vacío: T-000 espera merge en PR #1)_
 
 ## ✅ Listas (cola en orden de ejecución, máx. 10)
 - T-001 · P0 · S · 🧠 frontera · Read the JWT signing secret from configuration 🔴 → [tarea](tasks/T-001-externalize-jwt-secret.md)
@@ -64,4 +64,4 @@
 - 🧠 ADR sobre token en `localStorage` vs cookie httpOnly
 
 ## 🏁 Hecho reciente (máx. 10; las más viejas → archive/tasks/)
-_(vacío)_
+- T-000 · P0 · L · 🧠 frontera · Bootstrap agent harness and project audit → [tarea](tasks/T-000-agent-bootstrap.md) · PR #1

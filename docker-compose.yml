@@ -1,0 +1,65 @@
+# Stack local de WoodWork.
+#   Solo la base (desarrollo):      docker compose up -d --wait
+#   Todo en contenedores:           docker compose --profile app up -d --build
+#   Apagar y borrar datos:          docker compose --profile app down -v
+# Credenciales SOLO para local, iguales a backend/coworkProject/src/main/resources/env.properties.example.
+# (backend/coworkProject/compose.yaml es el archivo viejo de Spring Boot Docker Compose; no se usa.)
+name: woodwork
+
+services:
+  db:
+    image: postgres:18-alpine
+    environment:
+      POSTGRES_DB: woodwork
+      POSTGRES_USER: woodwork
+      POSTGRES_PASSWORD: woodwork
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U woodwork -d woodwork"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  server:
+    profiles: [app]
+    image: woodwork-server:dev
+    build:
+      context: ./backend/coworkProject
+      dockerfile: Dockerfile.dev
+    env_file:
+      - path: ./backend/coworkProject/src/main/resources/env.properties.example
+      - path: ./backend/coworkProject/src/main/resources/env.properties
+        required: false
+    environment:
+      DB_URL: db:5432
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/v1/api/render/health || exit 1"]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+      start_period: 10s
+
+  client:
+    profiles: [app]
+    image: woodwork-client:dev
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+      args:
+        VITE_API_URL: http://localhost:8080/v1/api
+    ports:
+      - "5173:80"
+    depends_on:
+      server:
+        condition: service_healthy
+
+volumes:
+  db-data:
